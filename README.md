@@ -33,6 +33,10 @@ four values and put them in an `.env` file as per the example in `.env.example`
 
 Add the images you want to randomize into the `image/` folder.
 
+If you'd prefer to use an automatic image from Unsplash, go into your
+`.env` file and change `IMAGE_SOURCE` to "unsplash". You can set comma delimited
+search parameters using `UNSPLASH_TERMS`, like: "city,night"
+
 
 ## Run Script
 
